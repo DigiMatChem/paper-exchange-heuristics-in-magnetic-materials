@@ -1,0 +1,1 @@
+The raw data used for our comparison is available at [GitHub](https://github.com/ncfrey/magnetic-topological-materials/tree/master/data/database_snapshot).

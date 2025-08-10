@@ -1,0 +1,85 @@
+"""Trains p and ap score (binned) models on both MAGNDATA datasets (full and RE-free) without certain groups
+of heuristic features.
+The train set index and target are given via command line arguments."""
+
+import json
+import pandas as pd
+from sklearn.model_selection import StratifiedKFold
+import sys
+
+from utils_kga.models.RF_classification import train_rf_classifier, select_features
+
+
+num_classes = 3
+eval_metric = "f1_weighted"
+
+n_outer = 10
+n_inner = 10
+n_features = 20
+hyper_param_grid = {"n_estimators": [150, 400, 600, 800],
+                    "max_depth": [5, 6, 7],
+                    "min_samples_split": [2, 4, 8, 12], }
+
+# Random seeds that give the most average feature-target NMIs
+with open("../../featurization/MAGNDATA/data/optimal_rs_all_train_sets-targets-datasets.json") as f:
+    train_idx_pick_dict = json.load(f)
+
+train_idx = sys.argv[1]
+assert int(train_idx) in list(range(20))
+score_type = sys.argv[2]
+assert score_type in ["p", "ap"]
+
+
+elim_dict = {"wod": lambda f: not "neighbor_distance" in f,  
+             "woc": lambda f: not "_perc" in f,
+             "wob": lambda f: not "bond_angle" in f,
+             "wobcd": lambda f: not ("bond_angle" in f or "_perc" in f or "neighbor_distance" in f)
+             }
+
+for elim_suffix, elim_cond in elim_dict.items():
+    target_name = f"target_{score_type}_10.0_excl_binned3"
+    for data_filter in ["all-structs_MAGNDATA", "TM-structs_MAGNDATA"]:
+        train_feat_df_path = ("../../featurization/MAGNDATA/data/"
+                              f"250430_full_features_{target_name}_{data_filter}train{train_idx}.json")
+        feat_df = pd.read_json(train_feat_df_path)
+
+        optimal_features = select_features(df=feat_df,
+                                           target_name=target_name,
+                                           n_features=200,
+                                           random_state=train_idx_pick_dict[score_type][data_filter][train_idx],
+                                           n_jobs=21)
+        optimal_features = [f for f in optimal_features if elim_cond(f)][:n_features]
+        assert len(optimal_features) == 20
+
+        outer_cv = StratifiedKFold(n_splits=n_outer, shuffle=True, random_state=42)
+
+        model_log = {
+            "param_grid": hyper_param_grid,
+            "n_data_points": len(feat_df),
+            "eval_metric": eval_metric,
+        }
+        print(f"Computing {target_name} {data_filter} train idx {train_idx} {elim_suffix}")
+        train_rf_classifier(df=feat_df,
+                            model_log=model_log,
+                            target_name=target_name,
+                            target_type="structure",
+                            data_filter=data_filter,
+                            classes_int_to_name_map={0: f"{score_type}<=0.005",
+                                                     1: f"0.005<{score_type}<=0.995",
+                                                     2: f"{score_type}>0.995"},
+                            script_path=__file__,
+                            feature_dataframe_identifier=f"{train_feat_df_path}, 8bcaa9c",
+                            test_feat_df_path=train_feat_df_path.replace("train", "test"),
+                            n_features=n_features,
+                            optimal_features=optimal_features,
+                            random_state_feature_selection=train_idx_pick_dict[score_type][data_filter][train_idx],
+                            save_models=False,
+                            additional_info_for_model_id=f"trainidx{train_idx}{elim_suffix}",
+                            outer_cv=outer_cv,
+                            inner_cv=StratifiedKFold(n_splits=n_inner, shuffle=True, random_state=42),
+                            folds_shapley=[],
+                            eval_metric=eval_metric,
+                            n_jobs_rf=1,
+                            n_jobs_grid=21,
+                            n_jobs_feature_selection=21,
+                            )

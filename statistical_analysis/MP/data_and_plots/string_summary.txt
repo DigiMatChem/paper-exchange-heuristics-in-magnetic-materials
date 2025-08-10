@@ -1,0 +1,5 @@
+Zero magmom threshold: 0.05, 1064 failed structures, 717 structures with isolated magnetic sites, 1237 structures analyzed
+Zero magmom threshold: 0.3, 32 failed structures, 985 structures with isolated magnetic sites, 2001 structures analyzed
+Zero magmom threshold: 0.5, 5 failed structures, 1000 structures with isolated magnetic sites, 2013 structures analyzed
+Zero magmom threshold: 0.8, 2 failed structures, 1014 structures with isolated magnetic sites, 2002 structures analyzed
+Zero magmom threshold: 1.0, 2 failed structures, 1060 structures with isolated magnetic sites, 1956 structures analyzed

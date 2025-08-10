@@ -1,0 +1,2738 @@
+{
+  "mcif_content_assertion_error": [
+    [
+      "0.91.mcif",
+      ""
+    ],
+    [
+      "1.645.mcif",
+      ""
+    ]
+  ],
+  "structure_not_implemented_error": [
+    [
+      "0.100.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.1002.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.1003.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.153.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.162.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.166.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.172.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.183.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.190.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.195.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.201.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.202.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.206.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.213.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.214.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.224.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.225.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.233.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.248.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.249.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.250.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.251.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.256.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.257.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.265.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.272.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.278.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.291.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.293.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.302.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.304.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.305.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.306.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.322.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.34.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.355.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.356.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.359.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.360.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.366.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.373.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.376.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.389.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.390.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.391.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.400.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.429.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.435.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.493.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.494.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.500.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.502.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.508.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.510.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.514.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.515.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.516.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.517.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.522.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.531.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.532.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.533.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.534.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.535.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.536.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.537.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.539.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.540.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.546.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.547.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.548.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.549.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.554.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.555.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.556.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.557.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.558.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.559.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.560.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.57.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.570.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.597.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.61.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.610.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.63.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.643.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.644.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.645.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.646.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.647.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.648.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.649.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.653.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.654.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.655.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.659.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.660.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.67.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.673.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.674.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.675.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.676.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.677.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.678.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.679.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.68.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.680.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.683.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.713.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.717.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.718.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.719.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.720.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.721.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.725.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.736.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.742.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.751.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.752.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.753.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.754.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.770.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.817.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.820.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.822.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.84.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.843.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.844.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.845.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.846.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.864.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.865.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.866.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.876.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.882.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.884.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.885.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.886.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.887.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.888.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.889.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.890.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.894.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.901.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.925.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.935.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.938.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.939.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.940.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.946.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.949.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.953.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.986.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.995.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.996.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.997.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "0.998.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.15.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.16.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.2.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.20.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.25.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.30.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.51.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.55.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.0.56.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.10.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.119.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.137.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.148.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.149.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.151.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.157.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.173.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.174.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.175.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.178.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.198.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.234.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.236.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.258.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.259.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.268.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.269.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.270.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.273.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.276.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.283.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.284.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.29.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.309.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.310.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.313.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.315.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.316.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.317.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.322.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.329.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.332.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.333.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.373.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.391.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.392.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.393.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.394.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.395.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.396.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.40.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.41.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.410.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.412.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.450.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.466.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.467.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.480.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.481.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.483.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.502.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.529.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.572.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.579.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.581.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.583.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.589.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.590.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.591.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.598.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.621.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.674.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.675.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.684.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.693.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.711.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.712.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.713.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.737.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.756.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.78.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "1.84.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.16.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.17.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.34.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.39.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.4.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.40.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.41.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.42.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.43.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.44.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.45.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.46.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.47.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.58.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.69.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "2.89.mcif",
+      "Disordered magnetic structures not currently supported."
+    ],
+    [
+      "3.5.mcif",
+      "Disordered magnetic structures not currently supported."
+    ]
+  ],
+  "structure_value_error": [
+    [
+      "0.247.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.418.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.432.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.437.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.538.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.637.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.852.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.87.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.93.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "0.94.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "1.405.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "1.471.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "1.592.mcif",
+      "Invalid CIF file with no structures!"
+    ],
+    [
+      "1.666.mcif",
+      "Invalid CIF file with no structures!"
+    ]
+  ],
+  "structure_attribute_error": [
+    [
+      "0.880.mcif",
+      "'NoneType' object has no attribute 'get'"
+    ],
+    [
+      "1.760.mcif",
+      "'NoneType' object has no attribute 'get'"
+    ]
+  ],
+  "structure_has_low_partial_occupancies": [
+    [
+      "0.120.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.181.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.245.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.282.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.283.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.341.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.344.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.381.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.393.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.456.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.458.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.503.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.52.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.53.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.54.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.55.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.567.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.568.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.569.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.661.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.710.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.824.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.826.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.833.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.956.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.98.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "0.99.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.0.17.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.11.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.181.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.184.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.220.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.221.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.231.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.243.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.27.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.275.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.282.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.285.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.331.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.336.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.337.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.358.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.360.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.372.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.434.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.435.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.436.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.437.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.447.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.503.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.509.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.600.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.601.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.602.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.603.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.604.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.605.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.606.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.607.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.608.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.609.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.610.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.611.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.612.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.613.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.614.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.615.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.616.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.632.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.646.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.647.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.652.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.676.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.677.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.704.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.705.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "1.771.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "2.25.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "2.80.mcif",
+      "has_low_partial_occupancies"
+    ],
+    [
+      "3.17.mcif",
+      "has_low_partial_occupancies"
+    ]
+  ],
+  "structure_has_hidden_splits": [
+    [
+      "0.266.mcif",
+      "has_hidden_splits"
+    ],
+    [
+      "0.338.mcif",
+      "has_hidden_splits"
+    ],
+    [
+      "1.201.mcif",
+      "has_hidden_splits"
+    ],
+    [
+      "1.441.mcif",
+      "has_hidden_splits"
+    ],
+    [
+      "1.72.mcif",
+      "has_hidden_splits"
+    ]
+  ],
+  "structure_has_missing_elements": [],
+  "structure_coordinationnet_fails": [
+    [
+      "0.1004.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.1006.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.108.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.109.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.12.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.123.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.124.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.126.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.127.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.14.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.140.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.149.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.173.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.174.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.177.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.185.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.194.mcif",
+      "site 5 != 4"
+    ],
+    [
+      "0.199.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.200.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.203.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.207.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.208.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.209.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.226.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.227.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.228.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.236.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.26.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.267.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.268.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.269.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.27.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.270.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.271.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.273.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.274.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.275.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.276.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.285.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.286.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.290.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.320.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.321.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.330.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.342.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.374.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.377.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.378.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.395.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.396.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.403.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.409.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.413.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.414.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.426.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.436.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.438.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.449.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.450.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.476.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.480.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.481.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.598.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.616.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.625.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.639.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.640.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.641.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.651.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.657.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.662.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.663.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.664.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.681.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.684.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.685.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.686.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.687.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.688.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.689.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.699.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.700.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.701.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.702.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.703.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.704.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.705.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.706.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.707.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.72.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.729.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.73.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.730.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.731.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.74.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.798.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.80.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.81.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.832.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.835.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.847.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.848.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.849.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.850.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.855.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.856.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.857.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.858.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.859.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.860.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.861.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.898.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.899.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.903.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.904.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.905.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.906.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.907.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.908.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.909.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.911.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.912.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.913.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.914.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.915.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.919.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.926.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.927.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.928.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.929.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.930.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.931.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.932.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.957.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.972.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.973.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.974.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.975.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.976.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.977.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "0.978.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.0.23.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.0.24.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.0.52.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.0.53.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.0.54.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.0.57.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.102.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.103.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.110.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.111.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.115.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.130.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.132.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.139.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.140.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.141.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.142.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.143.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.145.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.150.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.152.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.153.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.162.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.163.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.170.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.187.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.188.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.189.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.195.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.200.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.207.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.222.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.223.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.225.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.254.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.255.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.261.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.262.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.267.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.290.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.299.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.300.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.303.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.33.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.334.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.335.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.338.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.34.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.355.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.356.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.357.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.359.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.362.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.4.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.400.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.401.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.402.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.415.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.419.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.422.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.423.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.424.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.425.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.426.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.444.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.446.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.451.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.452.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.457.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.475.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.479.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.486.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.487.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.496.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.5.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.504.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.505.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.506.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.507.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.508.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.517.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.518.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.535.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.537.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.549.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.556.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.557.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.558.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.559.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.574.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.575.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.620.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.630.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.631.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.633.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.634.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.638.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.639.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.640.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.658.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.663.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.667.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.668.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.67.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.670.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.671.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.681.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.683.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.686.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.687.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.689.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.691.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.692.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.695.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.697.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.699.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.7.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.700.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.701.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.714.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.721.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.727.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.728.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.738.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.744.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.745.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.746.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.747.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.748.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.753.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.757.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.770.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.772.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.773.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.8.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.80.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.81.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.82.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.85.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "1.87.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.103.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.11.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.12.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.14.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.15.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.19.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.28.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.30.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.31.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.32.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.36.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.5.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.50.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.51.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.66.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.67.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.68.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.70.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.71.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.83.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.84.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.87.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.88.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.92.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.98.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "2.99.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.1.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.10.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.11.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.13.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.18.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.21.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.22.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.23.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.3.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.6.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.7.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.8.mcif",
+      "No non-zero oxidation states"
+    ],
+    [
+      "3.9.mcif",
+      "No non-zero oxidation states"
+    ]
+  ],
+  "mcif_non_integer_number_of_lattice_points": []
+}
