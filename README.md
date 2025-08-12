@@ -19,13 +19,15 @@ contain featurization with the `Automatminer` package, for those, create an envi
 
 Large parts of the data and figures produced by the scripts of this repository are given in the repository in a zipped format.
 For unzipping all files run `find . -type f -name '*.gz' -execdir gunzip '{}' \;
-` . The total repository size with everything unzipped is about TODO. 
+` . The total repository size with all files unzipped is about 1.5 GB. 
 Please note that not all data produced by the scripts is uploaded (e.g., redundant figures in different formats), but can easily 
 be replicated with the scripts.
 
 # License
-All code (including all *.py and *.ipynb) is licensed under the TODO License (TODO link), 
-while the rest of this repository is released under the TODO license (TODO link).
+All code (including all *.py and *.ipynb) is licensed under the BSD-3 License ([LICENSE_CODE](LICENSE_CODE)), 
+while the data of this repository is released under the CC-BY license ([LICENSE_DATA](LICENSE_DATA)).  
+From the latter, we exclude the raw data of the MAGNDATA database[1,2] ([mcifs](data_retrieval_and_preprocessing_MAGNDATA/mcifs)) which is released without license, 
+but we were allowed to use and process it.
 
 # Project structure
 Generally, scripts are numbered to indicate the order of execution.
@@ -261,3 +263,13 @@ This folder hosts the package that contains all project-specific utility functio
 
 ## tests
 This folder contains all tests for the `utils_kga` functions.
+
+
+--------
+[1] S.V. Gallego, J.M. Perez-Mato, L. Elcoro, E.S. Tasci, R.M. Hanson, K. Momma, M.I. Aroyo and G. Madariaga
+"MAGNDATA: towards a database of magnetic structures. I. The commensurate case."
+Journal of Applied Crystallography 49 1750-1776 (2016). [doi:10.1107/S1600576716012863](http://scripts.iucr.org/cgi-bin/paper?S1600576716012863) 
+
+[2] S.V. Gallego, J.M. Perez-Mato, L. Elcoro, E.S. Tasci, R.M. Hanson, M.I. Aroyo and G. Madariaga
+"MAGNDATA: towards a database of magnetic structures. II. The incommensurate case."
+Journal of Applied Crystallography 49 1941-1956 (2016). [doi:10.1107/S1600576716015491](http://dx.doi.org/10.1107/S1600576716015491)
