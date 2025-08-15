@@ -4,7 +4,7 @@ This repository contains code and data of the publication
 We review a popular structure-magnetism heuristic on datasets of magnetic structures ([statistical_analysis](statistical_analysis))
 and investigate whether we can utilize the heuristic to predict magnetic structures ([featurization](featurization), [models](models)).
 
-TODO insert link
+Preprint available at https://doi.org/10.26434/chemrxiv-2025-xj84d .
 
 The code has been written by K. Ueltzen with contributions from P. Benner, J. George and A. Naik.
 
