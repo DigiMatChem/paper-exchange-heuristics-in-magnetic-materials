@@ -28,7 +28,7 @@ n_sampling_per_size = 1000
 zero_magmom_threshold = 0.5
 step_width = 50
 replace = True
-datastring = "connected_TM_octahedra"
+datastring = "connected_TM_octahedra_same_ions"
 ligand_multiplicity_bool = False
 ligand_multiplicity_string = "no_ligand multiplicity_included"
 plot_and_data_dir = "data_and_plots"
@@ -71,6 +71,8 @@ for normalize_bool, normalize_string in zip([False, True], ["absolute_occurrence
         test_df = ang_df.loc[(ang_df["site_is_tm"]) & (ang_df["site_to_is_tm"])]
         test_df["ligand_el_set"] = test_df["ligand_elements"].apply(lambda ls: set(ls))
         test_df = test_df.loc[(test_df["site_ce"] == "O:6") & (test_df["site_to_ce"] == "O:6")]
+        test_df = test_df.loc[(test_df["site_element"] == test_df["site_to_element"])
+                              & (test_df["site_oxidation"] == test_df["site_to_oxidation"])]
 
         if not test_df.empty:
             n_lattice_points = df.at[md_id, "n_mag_lattice_points"]

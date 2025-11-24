@@ -19,7 +19,7 @@ contain featurization with the `Automatminer` package, for those, create an envi
 
 Large parts of the data and figures produced by the scripts of this repository are given in the repository in a zipped format.
 For unzipping all files run `find . -type f -name '*.gz' -execdir gunzip '{}' \;
-` . The total repository size with all files unzipped is about 1.5 GB. 
+` . The total repository size with all files unzipped is about 1.6 GB. 
 Please note that not all data produced by the scripts is uploaded (e.g., redundant figures in different formats), but can easily 
 be replicated with the scripts.
 
@@ -65,14 +65,24 @@ in the Sections `Statistical Analysis`, `Outlook` and the SI of the paper.
 collects info on all magnetic edges and nodes of the summarized connectivity representation that is contained in the 
 `CoordinationFeatures` objects for further analysis for the subset of crystallographically unique,
 commensurate MAGNDATA entries
-- [2_analyze_TM_octahedra.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra.ipynb) analyzes bond angle occurrences 
+- [2_analyze_TM_octahedra_same_ions.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra_same_ions.ipynb) analyzes bond angle occurrences 
 as a function of the angle between the magnetic vectors (spin angle) of nearest neighbor transition metal (TM) sites 
-that are octahedrally coordinated (the subset relevant to the simplification of the Kanamori-Goodenough-Anderson (KGA) rules). Includes plots,
+that are octahedrally coordinated and that are the same ions (the subset relevant to the simplification of the Kanamori-Goodenough-Anderson (KGA) rules discussed in our paper). Includes plots,
 statistics and the Kolmogorov-Smirnov (KS) test to compare AFM and FM bond angle distributions
-- The scripts `2_analyze_TM_octahedra_90-deg_*.ipynb` analyze possible reason for KGA rule breaking in AFM 
-interactions with 90 deg bond angles that are discussed in the SI
+- The scripts `2_analyze_TM_octahedra_same_ions_90-deg_*.ipynb` analyze possible reason for KGA rule breaking in AFM 
+spin orderings with 90 deg bond angles that are discussed in the SI
+- [2_analyze_TM_octahedra_90-deg_ion_pairs.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra_90-deg_ion_pairs.ipynb)
+analyzes the FM/AFM occurrence ratio per ion pair in spin orderings of neighboring TM octahedra with approx. 90 deg bond angles.
+- [2_analyze_TM_octahedra_ion_pairs_at_large_bond_angles.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra_ion_pairs_at_large_bond_angles.ipynb)
+analyzes the FM/AFM occurrence ratio per ion pair in spin orderings of neighboring TM octahedra with bond angles above 150 deg.
+- [2_analyze_TM_octahedra_ion_pairs_at_corner_connections.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra_ion_pairs_at_corner_connections.ipynb) analyzes the FM/AFM occurrence ratio per ion pair in spin orderings of neighboring TM octahedra that are corner-connected.
+- [2_analyze_TM_octahedra_selected_d3-d3_hs-d5-d5.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra_selected_d3-d3_hs-d5-d5.ipynb)
+analyzes bond angle distributions of FM and AFM spin orderings in selected d3--d3 nearest neighbors (octahedrally coordinated Cr3+)
+and in selected (assumed) high-spin d5--d5 nearest neighbors (including Fe3+, Mn2+).
+- [2_analyze_TM_octahedra_eg_non-eg.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra_eg_non-eg.ipynb) analyzes FM and AFM bond angle trends
+of nearest neighbors with and without e_g electrons (indirect review of KGA rule 2 with assumed electron configurations from oxidation state determination).
 - [2_analyze_TM_sites.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_sites.ipynb) analyzes bond angle occurrences 
-as a function of the spin angle for all magnetic TM--TM interactions (also those that are not octahedrally coordinated).
+as a function of the spin angle for all magnetic TM--TM spin orderings (also those that are not octahedrally coordinated and also of different ions).
 This is especially relevant for the KS test computation as we aim to compare this to the MaterialsProject (MP, see below)
 dataset to understand low importance of bond angle features in a previous ML study.
 - [2_plot_sitewise_collinearity_and_ces.ipynb](statistical_analysis/MAGNDATA/2_plot_sitewise_collinearity_and_ces.ipynb) 
@@ -82,7 +92,7 @@ displayed in the `Outlook` of the paper.
 determines the minimum number of samples required for a n_structures-dependent analysis of KS test results that yields 
 a p value sample standard deviation below 0.01 for all n_structures. Together with the results from 
 [2_get_n_structures-dependent_p_value_MP_determine_n_sampling_per_size.py](statistical_analysis/MP/2_get_n_structures-dependent_p_value_MP_determine_n_sampling_per_size.py),
-1,000 repetitions are determined for this analysis
+1,000 repetitions are determined for this analysis.
 - [3_plot_n_structures-dependent_p_values_test_statistics_and_sample_size_MAGNDATA.py](statistical_analysis/MAGNDATA/3_plot_n_structures-dependent_p_values_test_statistics_and_sample_size_MAGNDATA.py)
 plots p values, test statistics d and the true KS test size (FM and AFM bond angle occurrences) as a function of 
 n_structures. In the SI, these results are compared to 
@@ -91,10 +101,10 @@ n_structures. In the SI, these results are compared to
 collects info on all magnetic edges and nodes of the summarized connectivity representation that is contained in the 
 `CoordinationFeatures` objects for further analysis for the subset of *all* commensurate MAGNDATA entries. This is done
 to investigate in 
-[4_analyze_TM_octahedra_include_crystallographic_multiples.ipynb](statistical_analysis/MAGNDATA/4_analyze_TM_octahedra_include_crystallographic_multiples.ipynb)
+[4_analyze_TM_octahedra_same_ions_include_crystallographic_multiples.ipynb](statistical_analysis/MAGNDATA/4_analyze_TM_octahedra_same_ions_include_crystallographic_multiples.ipynb)
 if the bond angle - magnetism trends found in 
-[2_analyze_TM_octahedra.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra.ipynb) are a function of the chosen subset
-of cryst. unique entries (see SI for discussion)
+[2_analyze_TM_octahedra_same_ions.ipynb](statistical_analysis/MAGNDATA/2_analyze_TM_octahedra_same_ions.ipynb) are a function of the chosen subset
+of cryst. unique entries (see SI for discussion).
 
 ### MP
 - [1_get_coordinationnet_features_of_MP_database.py](statistical_analysis/MP/1_get_coordinationnet_features_of_MP_database.py) 
@@ -102,8 +112,11 @@ extracts the structurally unique dataset of the MagneticOrderingsWorkflow datase
  collects metadata on the entries and represents the magnetic structures as `CoordinationFeatures` objects.
 - [2_get_bond_angle_statistics_of_MP_database.py](statistical_analysis/MP/2_get_bond_angle_statistics_of_MP_database.py)
 collects info on magnetic edges. Bond angle occurrences are analyzed as a function of the spin angle, 
-both for nearest neighbor TM sites and their subset that are octahedrally coordinated. Includes plots, statistics and 
+both for nearest neighbor TM sites and their subset that are octahedrally coordinated and the same ion. Includes plots, statistics and 
 the Kolmogorov-Smirnov (KS) test to compare AFM and FM bond angle distributions.
+- [2_analyze_TM_octahedra_ion_pairs_at_large_bond_angles.ipynb](statistical_analysis/MP/2_analyze_TM_octahedra_ion_pairs_at_large_bond_angles.ipynb)
+analyzes the FM/AFM occurrence ratio per ion pair in spin orderings of neighboring TM octahedra with bond angles above 150 deg.
+- [2_analyze_TM_octahedra_ion_pairs_at_corner_connections.ipynb](statistical_analysis/MP/2_analyze_TM_octahedra_ion_pairs_at_corner_connections.ipynb) analyzes the FM/AFM occurrence ratio per ion pair in spin orderings of neighboring TM octahedra that are corner-connected.
 - [2_get_n_structures-dependent_p_value_MP_determine_n_sampling_per_size.py](statistical_analysis/MP/2_get_n_structures-dependent_p_value_MP_determine_n_sampling_per_size.py)
 determines the minimum number of samples required for a n_structures-dependent analysis of KS test results that yields 
 a p value sample standard deviation below 0.01 for all n_structures.
@@ -114,7 +127,7 @@ In the SI, these results are compared to [3_plot_n_structures-dependent_p_values
 ### MP_via_api
 Additionally to the MagneticOrderingsWorkflow dataset by Frey et al. (see above), we repeated the statistical analysis
 for all structures in the MaterialsProject database that have magnetic structures determined by the MagneticOrderings workflow
-(*not* those simply initialized as FM). The statistical test results concerning bond angle trends of FM and AFM interactions
+(*not* those simply initialized as FM). The statistical test results concerning bond angle trends of FM and AFM spin orderings
 are similar to the dataset by Frey et al. and further work (analysis of mutual information and machine learning) considers
 the dataset by Frey et al.  
 All MP task ids belonging to the MagneticOrderings workflow ([find_query.json](statistical_analysis/MP_via_api/data/find_query.json)) 
@@ -125,8 +138,11 @@ maps the task ids to mp-ids, downloads the structures and filters for those dete
 represents the magnetic structures as `CoordinationFeatures` objects and saves additional metadata on the entries.
 - [3_get_bond_angle_statistics_of_MP_database_via_api.py](statistical_analysis/MP_via_api/3_get_bond_angle_statistics_of_MP_database_via_api.py)
 collects info on magnetic edges. Bond angle occurrences are analyzed as a function of the spin angle, 
-both for nearest neighbor TM sites and their subset that are octahedrally coordinated. Includes plots, statistics and 
+both for nearest neighbor TM sites and their subset that are octahedrally coordinated and that are the same ion. Includes plots, statistics and 
 the Kolmogorov-Smirnov (KS) test to compare AFM and FM bond angle distributions.
+- [3_analyze_TM_octahedra_ion_pairs_at_large_bond_angles.ipynb](statistical_analysis/MP_via_api/3_analyze_TM_octahedra_ion_pairs_at_large_bond_angles.ipynb)
+analyzes the FM/AFM occurrence ratio per ion pair in spin orderings of neighboring TM octahedra with bond angles above 150 deg.
+- [3_analyze_TM_octahedra_ion_pairs_at_corner_connections.ipynb](statistical_analysis/MP_via_api/3_analyze_TM_octahedra_ion_pairs_at_corner_connections.ipynb) analyzes the FM/AFM occurrence ratio per ion pair in spin orderings of neighboring TM octahedra that are corner-connected.
 - [3_get_n_structures-dependent_p_value_MP_via_api_determine_n_sampling_per_size.py](statistical_analysis/MP_via_api/3_get_n_structures-dependent_p_value_MP_via_api_determine_n_sampling_per_size.py)
 determines the minimum number of samples required for a n_structures-dependent analysis of KS test results that yields 
 a p value sample standard deviation below 0.01 for all n_structures.

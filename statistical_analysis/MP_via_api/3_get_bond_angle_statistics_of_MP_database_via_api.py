@@ -21,6 +21,9 @@ thresholds = [0.05, 0.3, 0.5, 0.8, 1.0]
 zero_magmom_failures = {k: [] for k in thresholds}  # due to non-zero magmoms at anionic sites at given threshold
 isolated_sites_count = {k: [] for k in thresholds}
 
+# no orbital ordering assumed
+no_oo_ions = ["V2", "Cr3", "Mn4", "Mn2", "Fe3"]
+
 for zero_magmom_threshold in thresholds:
     all_stats_dict = {}
     for mp_id, row in df.iterrows():
@@ -40,6 +43,8 @@ for zero_magmom_threshold in thresholds:
             edge_result["ligand_el_set"] = edge_result["ligand_elements"].apply(lambda ls: set(ls))
             edge_result["site_is_tm"] = edge_result["site_element"].apply(lambda el: Element(el).is_transition_metal)
             edge_result["site_to_is_tm"] = edge_result["site_to_element"].apply(lambda el: Element(el).is_transition_metal)
+            edge_result["site_ion"] = edge_result.apply(lambda r: r["site_element"] + str(r["site_oxidation"]), axis=1)
+            edge_result["site_to_ion"] = edge_result.apply(lambda r: r["site_to_element"] + str(r["site_to_oxidation"]), axis=1)
             all_stats_dict[mp_id] = edge_result
         else:
             isolated_sites_count[zero_magmom_threshold].append(mp_id)
@@ -51,12 +56,14 @@ for zero_magmom_threshold in thresholds:
     print(str_sum)
     string_summary += str_sum
 
-    # Plot spin bond angle trends of whole db and of KGA-interesting subset of connected TM octahedra
+    # Plot spin bond angle trends of whole db and of KGA-interesting subset of connected TM octahedra w. same ions
     write_mode = "w"
     for datastring in ["connected_TM_sites",
                        "oxygen_connected_TM_sites",
-                       "connected_TM_octahedra",
-                       "oxygen_connected_TM_octahedra"]:
+                       "connected_TM_octahedra_same_ions",
+                       "connected_TM_octahedra_same_ions_no_oo_ions",
+                       "oxygen_connected_TM_octahedra_same_ions",
+                       "oxygen_connected_TM_octahedra_same_ions_no_oo_ions"]:
         for ligand_multiplicity_bool, ligand_multiplicity_string in zip([True, False],
                                                                         ["ligand_multiplicity_included",
                                                                          "no_ligand multiplicity_included"]):
@@ -66,7 +73,12 @@ for zero_magmom_threshold in thresholds:
                 for md_id, ang_df in all_stats_dict.items():
                     test_df = ang_df.loc[(ang_df["site_is_tm"]) & (ang_df["site_to_is_tm"])]
                     if "TM_octahedra" in datastring:
+                        test_df = test_df.loc[(test_df["site_element"] == test_df["site_to_element"])
+                                              & (test_df["site_oxidation"] == test_df["site_to_oxidation"])]
                         test_df = test_df.loc[(test_df["site_ce"] == "O:6") & (test_df["site_to_ce"] == "O:6")]
+                    if "no_oo_ions" in datastring:
+                        test_df = test_df.loc[test_df["site_ion"].isin(no_oo_ions)]
+
                     if "oxygen" in datastring:
                         test_df = test_df.loc[test_df["ligand_el_set"]=={"O"}]
                     if not test_df.empty:
@@ -121,7 +133,7 @@ for zero_magmom_threshold in thresholds:
                     f.write(one_d_fig.to_html(full_html=False, include_plotlyjs="cdn"))
                 write_mode = "a"
                 # Plot special occus to pdf
-                if zero_magmom_threshold == 0.5 and ligand_multiplicity_bool == False:
+                if zero_magmom_threshold == 0.5 and ligand_multiplicity_bool == False and datastring == "connected_TM_octahedra_same_ions":
                     for spin_ang in sorted(set(all_spin_occus_df["spin_angle"].values)):
                         one_d_fig = go.Figure(layout=go.Layout(xaxis=go.layout.XAxis(title="Bond angle (°)"),
                                                                yaxis=go.layout.YAxis(title="Occurrence"),
@@ -139,9 +151,9 @@ for zero_magmom_threshold in thresholds:
                         ))
                         one_d_fig = pretty_plot(one_d_fig)
                         one_d_fig.update_layout(title=dict(font=dict(size=10)))
-                        if not normalize_bool and datastring == "connected_TM_octahedra":
+                        if not normalize_bool:
                             one_d_fig.update_layout(xaxis_range=[57, 182])
-                        elif normalize_bool and datastring == "connected_TM_octahedra":
+                        else:
                             one_d_fig.update_layout(xaxis_range=[57, 182])
                         one_d_fig.write_image(f"data/MP_spin_bond_angle_trends_{zero_magmom_threshold}_"
                                               f"magmom_threshold_{datastring}_{ligand_multiplicity_string}_"
@@ -182,5 +194,3 @@ with open("data/bond_angle_occurrences.json", "w") as f:
     json.dump(bond_angle_occurrences, f)
 with open("data/string_summary.txt", "w") as f:
     f.write(string_summary)
-
-

@@ -412,6 +412,35 @@ def get_bond_angle_interval_statistics(df: pd.DataFrame, include_ligand_multipli
     return occus
 
 
+def get_bond_angle_interval_ion_pair_statistics(df: pd.DataFrame, include_ligand_multiplicity: bool = True,
+                                       analyze_column: str = "ion_pair", n_lattice_points: int = 1,
+                                       bond_angle_interval: tuple[float, float] = (85, 95)) -> dict:
+    """
+    Get absolute occurrences of ion pairs in specific bond angle intervals.
+    Used in 90° AFM and FM subdf analysis of connected TM octahedra.
+    """
+    ion_pairs_dict = {}
+    for row_id, row in df.iterrows():
+        for bond_angle in row["mag_ligand_mag_angle"]:
+            if bond_angle_interval[0] <= bond_angle <= bond_angle_interval[1]:
+                if include_ligand_multiplicity:
+                    if row[analyze_column] in ion_pairs_dict:
+                        ion_pairs_dict[row[analyze_column]] += 1 / n_lattice_points
+                    else:
+                        ion_pairs_dict[row[analyze_column]] = 1 / n_lattice_points
+                else:
+                    if row[analyze_column] in ion_pairs_dict:
+                        ion_pairs_dict[row[analyze_column]] += 1 / (n_lattice_points * len(row["mag_ligand_mag_angle"]))
+                    else:
+                        ion_pairs_dict[row[analyze_column]] = 1 / (n_lattice_points * len(row["mag_ligand_mag_angle"]))
+
+    ion_pairs_dict_c = ion_pairs_dict.copy()
+    for ip, c in ion_pairs_dict_c.items():
+        if not (ip[0] == ip[2] and ip[1] == ip[3]):
+            ion_pairs_dict[ip] = 2 * c
+    return ion_pairs_dict
+
+
 def count_and_normalize_occurrences(ls: list[tuple], normalize: bool = True, n_lattice_points: int = 1) -> list:
     """
     General utility function for counting and normalizing value pair occurrences.

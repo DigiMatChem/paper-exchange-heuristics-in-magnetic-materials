@@ -17,7 +17,7 @@ n_sampling_per_size_list = [50, 500, 1000, 5000, 10000, 20000, 50000, 100000, 20
 step_width = 50
 replace = True
 ligand_multiplicity_string = "no_ligand multiplicity_included"
-datastring = "connected_TM_octahedra"
+datastring = "connected_TM_octahedra_same_ions"
 
 with open("data/dfs_of_magnetic_edge_information.json") as f:
     dict_all_stats = json.load(f)
@@ -38,6 +38,8 @@ for normalize_bool, normalize_string in zip([False, True], ["absolute_occurrence
         test_df = ang_df.loc[(ang_df["site_is_tm"]) & (ang_df["site_to_is_tm"])]
         test_df["ligand_el_set"] = test_df["ligand_elements"].apply(lambda ls: set(ls))
         test_df = test_df.loc[(test_df["site_ce"] == "O:6") & (test_df["site_to_ce"] == "O:6")]
+        test_df = test_df.loc[(test_df["site_element"] == test_df["site_to_element"]) & (
+                    test_df["site_oxidation"] == test_df["site_to_oxidation"])]
 
         if not test_df.empty:
             n_lattice_points = df.at[md_id, "n_lattice_points"]
@@ -72,8 +74,7 @@ for normalize_bool, normalize_string in zip([False, True], ["absolute_occurrence
         print(n_sampling_per_size)
         print(f"sample standard deviation: {sample_standard_deviation_dict}")
         print(f"sample mean: {sample_mean_dict}")
-        end = len([True for k, v in sample_standard_deviation_dict.items() if v > 0.01 * sample_mean_dict[k]]) == 0
-        print("All variances below 0.01: ", end)
+        end = len([True for v in sample_standard_deviation_dict.values() if v > 0.01]) == 0
+        print("All sample standard deviations below 0.01: ", end)
         if end:
             break
-    exit(1)

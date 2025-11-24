@@ -20,7 +20,7 @@ n_sampling_per_size_list = [50, 200, 500, 1000, 2000, 10000, 20000, 50000]
 step_width = 50
 replace = True
 ligand_multiplicity_string = "no_ligand multiplicity_included"
-datastring = "connected_TM_octahedra"
+datastring = "connected_TM_octahedra_same_ions"
 
 with open("data/unique_4559_cnfeat_MP_db_from_api.json") as f:
     df = json.load(f, cls=MontyDecoder)
@@ -60,6 +60,8 @@ for normalize_bool, normalize_string in zip([False, True], ["absolute_occurrence
         test_df = ang_df.loc[(ang_df["site_is_tm"]) & (ang_df["site_to_is_tm"])]
         test_df["ligand_el_set"] = test_df["ligand_elements"].apply(lambda ls: set(ls))
         test_df = test_df.loc[(test_df["site_ce"] == "O:6") & (test_df["site_to_ce"] == "O:6")]
+        test_df = test_df.loc[(test_df["site_element"] == test_df["site_to_element"])
+                              & (test_df["site_oxidation"] == test_df["site_to_oxidation"])]
 
         if not test_df.empty:
             n_lattice_points = df.at[md_id, "n_mag_lattice_points"]
