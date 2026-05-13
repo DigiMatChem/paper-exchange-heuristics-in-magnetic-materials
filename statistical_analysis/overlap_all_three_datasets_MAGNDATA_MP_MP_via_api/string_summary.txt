@@ -1,0 +1,5 @@
+79 matches between all three datasets. 
+all_three_same_p: 31 counts. 
+only_mp_magndata_same_p: 23 counts. 
+only_mp_via_api_mandata_same_p: 3 counts. 
+magndata_unique_p: 22 counts. 

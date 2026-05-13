@@ -149,6 +149,12 @@ a p value sample standard deviation below 0.01 for all n_structures.
 - [4_plot_n_structures-dependent_p_values_test_statistics_and_sample_size_MP_via_api.py](statistical_analysis/MP_via_api/4_plot_n_structures-dependent_p_values_test_statistics_and_sample_size_MP_via_api.py)
 plots p values, test statistics d and the true KS test size (FM and AFM bond angle occurrences) as a function of n_structures. 
 
+### overlap_*
+The structures common in (1) both MAGNDATA and the MP (2020) datasets, (2) both MAGNDATA and MP via API (2025) datasets, and (3) all three datasets
+are determined via pymatgen's *StructureMatcher* with default values.  
+Although the overlap datasets are relatively small, they allow an evaluation of the MP DFT+U methodology without accounting for different chemistry / exchange mechanisms in the datasets as magnetism trends in the same structures are compared.
+Bond angle - magnetism trends in TM octahedra of the same ion and *p* values are compared.
+
 
 ## featurization
 This folder contains all scripts for transforming the non-magnetic parent structures of the cryst. unique MAGNDATA 
